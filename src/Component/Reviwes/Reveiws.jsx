@@ -5,7 +5,7 @@ const data =[
         title:"dd",
         img:"ff",
         desc:"gg",
-        img:"goop"
+        image:"goop"
 
     }
 ]
@@ -32,13 +32,13 @@ const Reveiws = () => {
         </div>
     </div>
     {
-        data.map((id)=>{
-            return <div key={data}>
-                <h1>{data.id}</h1>
-                <p>{data.title}</p>
-                <img src={data.img} alt="" />
-                <p>{data.desc}</p>
-                <img src={data.img} alt="" />
+        data?.map((id)=>{
+            return <div key={id.id}>
+                <h1>{id.id}</h1>
+                <p>{id.title}</p>
+                <img src={id.img} alt="review" width={300} height={300} />
+                <p>{id.desc}</p>
+                <img src={id.image} alt="review" width={300} height={300} />
 
 
                  </div>
