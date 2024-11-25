@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 import Nabbar from './Component/Navbar/Nabbar'
 import Basement from './Component/Basement renovation/Basement'
@@ -34,7 +34,7 @@ function App() {
   
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       
       <Nabbar />
       <Basement /> 
@@ -64,7 +64,7 @@ function App() {
       <Footer />
       <DataFetch />
       <Up_Navbar />
-    </>
+    </div>
   )
 }
 

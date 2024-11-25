@@ -31,7 +31,7 @@ const Reveiws = () => {
             </div>
         </div>
     </div>
-    {
+    {/* {
         data?.map((id)=>{
             return <div key={id.id}>
                 <h1>{id.id}</h1>
@@ -43,7 +43,7 @@ const Reveiws = () => {
 
                  </div>
         })
-    }
+    } */}
     </div>
   )
 }

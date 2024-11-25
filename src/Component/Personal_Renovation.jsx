@@ -13,7 +13,7 @@ const Personal_Renovation = () => {
        </div>
        <div>
        <div >
-        <img src="../../src/assets/professional.webp" alt="about" height={100} width={8000}/>
+        <img src="/assets/professional.webp" alt="about" height={100} width={8000}/>
        </div>
        </div>
     </div>
