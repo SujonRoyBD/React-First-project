@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='bg-gray-300 mt-4'>
     <footer className="footer bg-neutral text-neutral-content p-10 grid   grid-cols-2 md:grid-cols-4 justify-between">
   <nav className='grid'>
-    <h6 className="footer-title"><img src="../../../src/assets/prime.png" alt="" /></h6>
+    <h6 className="footer-title"><img src="/assets/prime.png" alt="" /></h6>
     <a className="link link-hover">Branding</a>
     <p>Trust our professional basement renovation contractors in Toronto to transform your basement into a beautiful and functional space you'll love for years. Contact us today to get started!</p>
   </nav>
@@ -28,10 +28,10 @@ const Footer = () => {
   </nav>
   <nav className='grid'>
     <h6 className="footer-title  font-bold text-lg">Contact Us</h6>
-    <a className="link link-hover flex gap-2"><img src="../../../src/assets/img/map.webp" alt=""height={2} width={20} /> 163 Bowes rd, Toronto</a>
-    <a className="link link-hover flex gap-2"><img src="../../../src/assets/img/phone.webp" alt="phone" height={0} width={20} /> Privacy policy</a>
-    <a className="link link-hover flex gap-2"><img src="../../../src/assets/img/mail.webp" alt="mail" width={20} height={1} /> Cookie policy</a>
-    <span className="link link-hover flex "><img src="../../../src/assets/img/contact_us_clock.webp" alt="mail" width={20} height={1} /> <strong className=' '>Mon & SUN</strong> by Appointment <br /> <strong>TUE - SAT</strong></span>
+    <a className="link link-hover flex gap-2"><img src="/assets/img/map.webp" alt=""height={2} width={20} /> 163 Bowes rd, Toronto</a>
+    <a className="link link-hover flex gap-2"><img src="/assets/img/phone.webp" alt="phone" height={0} width={20} /> Privacy policy</a>
+    <a className="link link-hover flex gap-2"><img src="/assets/img/mail.webp" alt="mail" width={20} height={1} /> Cookie policy</a>
+    <span className="link link-hover flex "><img src="/assets/img/contact_us_clock.webp" alt="mail" width={20} height={1} /> <strong className=' '>Mon & SUN</strong> by Appointment <br /> <strong>TUE - SAT</strong></span>
   </nav>
 </footer>
 <div>

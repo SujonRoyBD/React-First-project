@@ -6,15 +6,15 @@ const Profetional = () => {
   return (
     <div>
      <div className='px-14'>
-     <span className='flex gap-3 mt-9 '><img  src="../../../src/assets/headingIcon.webp" alt="" /><p>Working Process</p></span>
+     <span className='flex gap-3 mt-9 '><img  src="/assets/headingIcon.webp" alt="" /><p>Working Process</p></span>
      <h1>Get Free Professional <br /> Consultation</h1>
-     <span className='flex mb-4 gap-5'><img src="../../../src/assets/img/map.webp" alt="map" height={30} width={30} /><a href="#">163 Bowes rd, Toronto
+     <span className='flex mb-4 gap-5'><img src="/assets/img/map.webp" alt="map" height={30} width={30} /><a href="#">163 Bowes rd, Toronto
      </a></span>
-     <span className='flex mb-4 gap-5'><img src="../../../src/assets/img/phone.webp" alt="map" height={30} width={30} /><a href="#">647-449-9512
+     <span className='flex mb-4 gap-5'><img src="/assets/img/phone.webp" alt="map" height={30} width={30} /><a href="#">647-449-9512
      </a></span>
-     <span className='flex mb-4 gap-5'><img src="../../../src/assets/img/mail.webp" alt="map" height={30} width={30} /><a href="#">basement Renovation@gmail.com
+     <span className='flex mb-4 gap-5'><img src="/assets/img/mail.webp" alt="map" height={30} width={30} /><a href="#">basement Renovation@gmail.com
      </a></span>
-     <span className='flex mb-4 gap-5'><img src="../../../src/assets/img/contact_us_clock.webp" alt="map" height={30} width={30} /><a href="#">Mon & SUN by Appointment TUE - SAT (10am - 7pm)
+     <span className='flex mb-4 gap-5'><img src="/assets/img/contact_us_clock.webp" alt="map" height={30} width={30} /><a href="#">Mon & SUN by Appointment TUE - SAT (10am - 7pm)
      </a></span>
      <button className='bg-red-500 px-5 py-3 rounded-full mt-8 flex ml-[160px]'>Get a free Quate <FaArrowRight className='mt-2 ml-2 text-white' /> </button>
 

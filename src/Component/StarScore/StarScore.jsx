@@ -7,7 +7,7 @@ const StarScore = () => {
       <div className='grid grid-cols-1 md:grid-cols-4 gap-10 justify-center border-2  '>
        <div className='grid justify-center mt-5 '>
             <p className='flex'>Star Score <FiAlertCircle className='mt-2 ml-2 '/></p>
-            <span className='flex '><img className='' src="../../../src/assets/img/star.webp" alt="Star" height={30} width={40}/><p className='mt-2 text-3xl'>99%</p></span>
+            <span className='flex '><img className='' src="/assets/img/star.webp" alt="Star" height={30} width={40}/><p className='mt-2 text-3xl'>99%</p></span>
         </div>
         <div>
             <p  className='flex'>Average Rating <div className='bg-lime-400 h-[10px] w-[200px] rounded-full mt-3 ml-5'></div><FiAlertCircle  className='mt-2 ml-4'/> </p>
@@ -23,7 +23,7 @@ const StarScore = () => {
           
         </div>
         <div className='flex justify-center'>
-            <img src="../../../src//assets/img/homestar.jpg" alt="" />
+            <img src="//assets/img/homestar.jpg" alt="" />
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ const data2 = [
 const Renovation = () => {
     return (
         <div data-aos="zoom-in" className='text-center'>
-            <span className='flex gap-3  justify-center'><img src="../../../src/assets/headingIcon.webp" alt="" /><p>Gallery</p></span>
+            <span className='flex gap-3  justify-center'><img src="/assets/headingIcon.webp" alt="" /><p>Gallery</p></span>
             <h1 className='font-bold text-3xl text-center'>Our Basement Renovation Contractors Do's and Don'ts
             </h1>
             <div className='flex justify-center'>

@@ -9,29 +9,29 @@ import { Autoplay } from 'swiper/modules';
 
 
 const gallery1 = [
-    "../../../src/assets/newImages/cleaning_6a-1-1.png",
-    "../../../src/assets/newImages/cleaning_6a-1-1.png",
-    "../../../src/assets/newImages/cleaning_11-1.png",
-    "../../../src/assets/newImages/cleaning_12-1.png",
-    "../../../src/assets/newImages/cleaning_12.png",
-    "../../../src/assets/newImages/cleaning_14-1.png",
-    "../../../src/assets/newImages/cleaning_11-1.png",
+    "/assets/newImages/cleaning_6a-1-1.png",
+    "/assets/newImages/cleaning_6a-1-1.png",
+    "/assets/newImages/cleaning_11-1.png",
+    "/assets/newImages/cleaning_12-1.png",
+    "/assets/newImages/cleaning_12.png",
+    "/assets/newImages/cleaning_14-1.png",
+    "/assets/newImages/cleaning_11-1.png",
 ]
 const gallery2 = [
-    "../../../src/assets/newImages/cleaning_14-1.png",
-    "../../../src/assets/newImages/cleaning_11-1.png",
-    "../../../src/assets/newImages/cleaning_11.png",
-    "../../../src/assets/newImages/cleaning_6a-1.png",
-    "../../../src/assets/newImages/cleaning_13 1.png",
-    "../../../src/assets/newImages/cleaning_6a-1-1.png",
-    "../../../src/assets/newImages/cleaning_11-1.png",
+    "/assets/newImages/cleaning_14-1.png",
+    "/assets/newImages/cleaning_11-1.png",
+    "/assets/newImages/cleaning_11.png",
+    "/assets/newImages/cleaning_6a-1.png",
+    "/assets/newImages/cleaning_13 1.png",
+    "/assets/newImages/cleaning_6a-1-1.png",
+    "/assets/newImages/cleaning_11-1.png",
 ]
 
 
 const Gleary = () => {
     return (
         <div className='mt-8'>
-            <span className='flex gap-3  justify-center'><img src="../../../src/assets/headingIcon.webp" alt="" /><p>Gallery</p></span>
+            <span className='flex gap-3  justify-center'><img src="/assets/headingIcon.webp" alt="" /><p>Gallery</p></span>
             <h1 className='font-bold text-3xl text-center'>Gallery Of Our Basement Renovation Contractors Toronto
             </h1>
             <div>

@@ -2,32 +2,32 @@ import React from 'react';
 
 const Data = [
   {
-    img: "../../../src/assets/img/google.webp",
+    img: "/assets/img/google.webp",
     
     desc: "Join our satisfied customers.",
   },
   {
-    img: "../../../src/assets/houzz.webp",
+    img: "/assets/houzz.webp",
    
     desc: "TRead our 5-star reviews on Google Maps.",
   },
   {
-    img: "../../../src/assets/blogto.webp",
+    img: "/assets/blogto.webp",
   
     desc: "Easy excels at turning ordinary into outstanding.",
   },
   {
-    img: "../../../src/assets/homestars.webp",
+    img: "/assets/homestars.webp",
    
     desc: "Join our satisfied customers",
   },
   {
-    img: "../../../src/assets/tpi.webp",
+    img: "/assets/tpi.webp",
    
     desc: "Outstanding Achievement Award",
   },
   {
-    img: "../../../src/assets/bark.webp",
+    img: "/assets/bark.webp",
    
     desc: "Getting a professional design service addition",
   },
