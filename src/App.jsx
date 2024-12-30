@@ -26,15 +26,14 @@ import FAQ from './Component/Faqs/Faqs'
 import GetConsult from './Component/GetConsult/GetConsult'
 import Profetional from './Component/Profetional/Profetional'
 import Footer from './Component/Footer/Footer'
-import DataFetch from './Component/DataFetch/DataFetch'
-import Up_Navbar from './Component/Up_Navbar/Up_Navbar'
+  
 // import FetchApi from './Component/FetchApi/FetchApi'
 // import { FaArrowRight } from "react-icons/fa";
 function App() {
   
 
   return (
-    <div className='overflow-x-hidden'>
+    <div className=''>
       
       <Nabbar />
       <Basement /> 
@@ -54,7 +53,7 @@ function App() {
       <Renovation />
       <RenovantionDonts />
       <Benifits />
-      <Reveiws />
+      {/* <Reveiws /> */}
       <Dos />
       <Chose_us />
       <Ready />
@@ -62,8 +61,7 @@ function App() {
       <GetConsult />
       <Profetional />
       <Footer />
-      <DataFetch />
-      <Up_Navbar />
+      
     </div>
   )
 }

@@ -59,17 +59,19 @@ desc:"The existing structure may limit certain design options."
 ];
 const Consideration = () => {
   return (
-    <div data-aos="zoom-in" className=' mt-9'>
-       <span className='flex gap-3 justify-center'><img  src="/assets/headingIcon.webp" alt="" /><p>Consideration & Limitation</p></span>
+    <div data-aos="zoom-in" className=' mt-9 '>
+      <div className='px-6'>
+      <span className='flex gap-3  justify-center'><img  src="/assets/headingIcon.webp" alt="" /><p>Consideration & Limitation</p></span>
       <h1 className='font-bold text-3xl text-center'>Consideration and Limitation Factors for Your Project
       </h1>
       <h3 className='text-1xl text-center'>When planning a basement renovation project with Prime Basement Renovations, consider various factors and limitations to ensure a successful outcome. Understanding these elements can help you make informed decisions and set realistic expectations for your project. By considering these factors and understanding the limitations associated with your basement renovation project, you can better prepare for a successful transformation. At Prime Basement Renovations, we're here to guide you through every step of the process, ensuring your vision becomes a reality while navigating any challenges. Contact us today to discuss your project and start planning your dream basement!</h3>
+      </div>
       <div className='grid grid-cols-1 md:grid-cols-6 mt-9'>
         <div className='md:col-span-1'>
-            <img className='h-full' src="/assets/consideration1.webp" alt="" />
+            <img className='h-full sm: w-full' src="/assets/consideration1.webp" alt="" />
         </div>
       
-        <div className='mr-3 md:col-span-2 border-t-2 border-l-2 border-r-2'>
+        <div className='mr-3 md:col-span-2 border-t-2 border-l-2 border-r-2 px-7'>
            {
             data.map((fien)=>{
               return <div key= {fien} className='border-b-2' >
@@ -94,7 +96,7 @@ const Consideration = () => {
       
         <div className='md:col-span-1'>
         
-            <img className='h-full' src="/assets/consideration2.webp" alt="" />
+            <img className='h-full sm: w-full' src="/assets/consideration2.webp" alt="" />
         </div>
       
       </div>

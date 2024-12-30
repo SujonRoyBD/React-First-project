@@ -3,24 +3,19 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Nabbar = () => {
   return (
-    <div className='bg-white top-0 z-50'>
-      <nav className='flex ml-9 gap-12'>
+    <div className='bg-white top-0 z-50 sticky'>
+      <nav className='flex ml-9 gap-20 '>
         <img className='h-[50px]' src="/assets/img/prime.png" alt="top" height={70} width={70} />
         <div>
           <ul className='grid grid-col md:grid-cols-5 first-line: gap-[100px] mt-4'>
-            <li>
-              Design and Planning
-            </li>
-            <li>
-              Waterproofing
-            </li>
-            <li>
-              Plumbing Installation
-            </li>
-            <li>
-              Flooring Installation
-            </li>
-            <button className='bg-red-500 px-5 rounded-full flex'>Get a free Quate <FaArrowRight className='mt-2 ml-2 text-white' /> </button>
+            <a href="text">About</a>
+            <a href="text">Contact</a>
+            <a href="text">Blog</a>
+           <div className='flex sm: mr-[100px]'>
+           <input type="text" placeholder= 'search ' className='border-2 rounded-l-full px-3 w-[150px]' />
+            
+            <button className=' bg-orange-500 px-5 rounded-r-full flex'>Search </button>
+           </div>
 
           </ul>
           <div>

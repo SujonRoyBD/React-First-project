@@ -12,31 +12,31 @@ const Chose_us = () => {
         <h2 className='text-center'>Usual Basement Renovation <br />
         Contractors</h2>
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className=' md:w-[320px] h-1 bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1  md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1  md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1  md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/x.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         
 
@@ -47,31 +47,31 @@ const Chose_us = () => {
         <h2 className='text-center'>Usual Basement Renovation <br />
         Contractors</h2>
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         <span className='flex gap-3'><img src="/assets/img/r.webp" alt="x" height={100} width={20}/>Unreliable and delayed project timelines</span>
-        <hr className='h-1 w-[320px] bg-green-300' />
+        <hr className='h-1 md:w-[320px] bg-green-300' />
         
         
 

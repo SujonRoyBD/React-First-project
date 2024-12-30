@@ -1,51 +1,137 @@
 import React from 'react'
-const data =[
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+const data = [
     {
-        id:"uu",
-        title:"dd",
-        img:"ff",
-        desc:"gg",
-        image:"goop"
+        div: (
+            <>
+                <div className='flex gap-4'>
+                    <div className='bg-green-500 rounded-full h-[50px]  w-[50px]  flex items-center justify-center'>
+                        S
+                    </div>
+                    <div>
+                        <p className='text-2xl'>Steven Norris</p>
+                        <p>31 August 2024</p>
+                    </div>
+                </div>
+            </>
+        ),
+        desc: "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
 
-    }
+        img: "/public/assets/google.webp"
+    },
+    {
+        div: (
+            <>
+                <div className='flex gap-4'>
+                    <div className='bg-green-500 rounded-full h-[50px]  w-[50px]  flex items-center justify-center'>
+                        L
+                    </div>
+                    <div>
+                        <p className='text-2xl'>Steven Norris</p>
+                        <p>31 August 2024</p>
+                    </div>
+                </div>
+            </>
+        ),
+        desc: "Karim and his team are absolutely phenomenal. They were the perfect crew to work with to modernize our 90s home. They put in new floors and completed painting throughout the house. Their professionalism is top-notch.",
+
+        img: "/public/assets/google.webp"
+    },
+    {
+        div: (
+            <>
+                <div className='flex gap-4'>
+                    <div className='bg-green-500 rounded-full h-[50px]  w-[50px]  flex items-center justify-center'>
+                        S
+                    </div>
+                    <div>
+                        <p className='text-2xl'>Steven Norris</p>
+                        <p>31 August 2024</p>
+                    </div>
+                </div>
+            </>
+        ),
+        desc: "I can't say enough about Glitz Floors and More. From start to finish Zaid, our salesman, was great. He was informative, proactive, helpful, attentive, caring, and patient - Never pushy.",
+
+        img: "/public/assets/google.webp"
+    },
 ]
-const Reveiws = () => {   
-  return (
-    <div>
-      <div className='text-center mt-7'>
-    <span className=' flex justify-center gap-3'><img  src="/assets/headingIcon.webp" alt="" /><p>Reviews</p></span>
-    <h1 className='font-bold text-3xl'>Reviews For Basement Renovation</h1>
-    </div>
-    <div>
-        <div className='px-20'>
-            <span className='flex gap-3'><img src="/assets/google.webp" alt="google" height={100} width={100} /><p  className='mt-5 font-bold text-2xl'>Rating</p></span>
-            <div className='grid grid-cols-1 md:grid-cols-2  justify-between  '>
-            <div className='flex'>
-                <p>5.0</p>
-                <img src="/assets/orange_five_star.webp" alt="star" height={10} width={90} />
-                <h2>70 Reviews</h2>
+const Reveiws = () => {
+    return (
+        <div className='border-2 shadow-lg w-full md:w-[1200px] mx-auto mt-6'>
+            <div className='flex flex-col md:flex-row justify-between  mt-8 p-20'>
+                <div>
+                    <span className='flex gap-3 '><img src="/public/assets/google.webp" alt="" /><p className='mt-6 text-2xl '>Rating</p>
+                    </span>
+                    <span className='flex gap-7'><p>5.0</p> 70 Reviews </span>
+                </div>
+                <div>
+                    <button className='p-3 bg-red-500 rounded-md'>Write a review</button>
+                </div>
+            
+            <Swiper
+                    // install Swiper modules
+                    modules={[Autoplay]}
+                    autoplay={{
+                        delay: 2500,
+                        disableOnInteraction: false,
+                        reverseDirection : true,
+                      }}
+                      loop={true}
+                    spaceBetween={10}
+                    slidesPerView={3}
+                >
+            
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-9 px-4 md:px-20 border-2 shadow-lg w-[1000px]  justify-center items-center mx-auto '>{
+                    
+                    data.map((info)=> {
+                    return <div key={info} >
+                        <h1>{info.div}</h1>
+                        <h1>{info.desc}</h1>
+                        <img src={info.img} alt="google" height={10} width={100} />
+
+                    </div>
+                    
+                })
+                
+            }
             </div>
-            <div>
-                <button className='bg-blue-600 px-3 py-2 rounded-md'><a href="#">Write a reveiw</a></button>
-            </div>
-            </div>
+            </Swiper>
+            
+                
+
+
+          </div>  
         </div>
-    </div>
-    {/* {
-        data?.map((id)=>{
-            return <div key={id.id}>
-                <h1>{id.id}</h1>
-                <p>{id.title}</p>
-                <img src={id.img} alt="review" width={300} height={300} />
-                <p>{id.desc}</p>
-                <img src={id.image} alt="review" width={300} height={300} />
-
-
-                 </div>
-        })
-    } */}
-    </div>
-  )
+    )
 }
 
+
 export default Reveiws
+
+// import React from 'react'
+
+// const Reveiws = () => {
+//   return (
+//     <div>
+//        <Swiper
+//       spaceBetween={50}
+//       slidesPerView={}
+//       onSlideChange={() => console.log('slide change')}
+//       onSwiper={(swiper) => console.log(swiper)}
+//     >
+//       <SwiperSlide>Slide 1</SwiperSlide>
+//       <SwiperSlide>Slide 2</SwiperSlide>
+//       <SwiperSlide>Slide 3</SwiperSlide>
+//       <SwiperSlide>Slide 4</SwiperSlide>
+//       ...
+//     </Swiper>
+//     </div>
+//   )
+// }
+
+// export default Reveiws

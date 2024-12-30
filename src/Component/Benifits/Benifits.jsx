@@ -70,8 +70,8 @@ const Benifits = () => {
   return (
     <div data-aos="zoom-in">
         <div className='text-center mt-7'>
-        <span className=' flex justify-center gap-3'><img  src="/assets/headingIcon.webp" alt="" /><p>Trusted</p></span>
-        <h1 className='font-bold text-3xl'>Trusted Basement Renovation Toronto</h1>
+        <span className=' flex justify-center gap-3'><img  src="/assets/headingIcon.webp" alt="" /><p>Benefits</p></span>
+        <h1 className='font-bold text-3xl mb-6'>Reviews For Basement Renovation</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 px-20 '>
         {
